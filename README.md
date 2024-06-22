@@ -139,18 +139,18 @@
 
 | Entidade  | Atributo antigo    | Atributo novo |
 | --------- | ------------------ |-------------- |
-| Histórico | Período_Realização | Data_Inicio
-                                        Data_Fim |
-| Alunos    | Contato            | WhatsApp
-                                   E-mail        |
-|           | Telefone           | Telefone_Res
-                                   Telefone_Cel  |
+| Histórico | Período_Realização | Data_Inicio   |
+|           |                    | Data_Fim      |
+| Alunos    | Contato            | WhatsApp      |
+|           |                    | E-mail        |
+|           | Telefone           | Telefone_Res  |
+|           |                    | Telefone_Cel  |
 
 ### Segunda normalização:
 
 Na tabela de Alunos, eliminamos os dois campos de telefones e adicionamos as seguintes tabelas no lugar:
 
-Telefones_Aluno
+    Telefones_Aluno
 
 | Restrições | Atributo            | Tipo de Dados e Comprim. |
 | ---------- | ------------------- | ------------------------ |
@@ -159,7 +159,7 @@ Telefones_Aluno
 | FK         | Cod_Tipo_Telefone   | numeric(4)               |
 |            | Num_Telefone        | varchar(11)              |
 
-                      Tipo_Telefone
+    Tipo_Telefone
 | Restrições | Atributo          | Tipo de Dados e Comprim. |
 |----------- | ----------------- | ------------------------ |
 | PK         | Cod_Tipo_Telefone | numeric(4)               |
@@ -167,7 +167,7 @@ Telefones_Aluno
 
 Na tabela de Alunos, eliminamos os campos relacionados a endereço e adicionamos as seguintes tabelas no lugar:
 
-Endereco_Aluno
+    Endereco_Aluno
 
 | Restrições | Atributo            | Tipo de Dados e Comprim. |
 | ---------- | ------------------- | ------------------------ |
@@ -179,7 +179,7 @@ Endereco_Aluno
 |            | Complemento         | varchar(10)              |
 |            | CEP                 | varchar(8)               |
 
-Tipo_Logradouro
+    Tipo_Logradouro
 
 | Restrições | Atributo            | Tipo de Dados e Comprim. |
 | ---------- | ------------------- | ------------------------ |
