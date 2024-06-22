@@ -125,13 +125,15 @@
 
 # Esboço:
 
-![Esboço.png](https://imgur.com/ELAfJfz)
+![Esboço](https://github.com/teteumohr/db_faculdade/assets/17818209/50d11025-32d5-440c-aeb9-76ad16716ed0)
+
 
 # Dicionário de Dados: Entidades
 
-![D-Entidades.png](https://imgur.com/a/OQBXWfS)
+![D-Entidades](https://github.com/teteumohr/db_faculdade/assets/17818209/5047c76c-4d90-4721-84ae-3e6a71606af8)
 
-![D-Atributos.png](https://imgur.com/a/dj2eph6)
+![D-Atributos](https://github.com/teteumohr/db_faculdade/assets/17818209/4019f4c2-3f3e-46ac-98f2-15438f327aa6)
+
 
 # Normalização:
 
@@ -192,9 +194,11 @@ Tabela esta padronizada.
 
 # Ajustes no ML e DD
 
-![D-ML-Entidades.png](https://imgur.com/a/m9uJxok)
+![D-ML-Entidades](https://github.com/teteumohr/db_faculdade/assets/17818209/6f290725-8f8d-4ebe-977f-5753a7161870)
 
-![D-ML-Atributos.png](https://imgur.com/a/bPpSXwK)
+
+![D-ML-Atributos](https://github.com/teteumohr/db_faculdade/assets/17818209/c968f3f0-f7b0-450d-a50b-e4c071a94ff9)
+
 
 # Alteração para MySQL
 
