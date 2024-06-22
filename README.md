@@ -125,13 +125,13 @@
 
 # Esboço:
 
-![teste.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3f953c80-ebbe-4646-9227-f6994639a4ca/42dcf8de-b661-48f6-9a8b-5eee5679ecb5/teste.png)
+![Esboço.png](https://imgur.com/ELAfJfz)
 
 # Dicionário de Dados: Entidades
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/3f953c80-ebbe-4646-9227-f6994639a4ca/546e1bb1-5ede-4468-97ee-816258dad5af/Untitled.png)
+![D-Entidades.png](https://imgur.com/a/OQBXWfS)
 
-![Completa.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3f953c80-ebbe-4646-9227-f6994639a4ca/a48056e5-ae14-4f67-a85e-2c4529425b3a/Completa.png)
+![D-Atributos.png](https://imgur.com/a/dj2eph6)
 
 # Normalização:
 
@@ -192,9 +192,9 @@ Tabela esta padronizada.
 
 # Ajustes no ML e DD
 
-![D1 - Entidades.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3f953c80-ebbe-4646-9227-f6994639a4ca/67ad9b66-c9cd-4c75-b41b-f8fcd4d143d1/D1_-_Entidades.png)
+![D-ML-Entidades.png](https://imgur.com/a/m9uJxok)
 
-![D2 - Atributos.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/3f953c80-ebbe-4646-9227-f6994639a4ca/a14dcd7a-0b8e-4cf0-9ba1-e9e0e15820d8/D2_-_Atributos.png)
+![D-ML-Atributos.png](https://imgur.com/a/bPpSXwK)
 
 # Alteração para MySQL
 
