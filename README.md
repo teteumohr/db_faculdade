@@ -258,7 +258,7 @@ CREATE TABLE Disciplina (
     Nome_Disciplina VARCHAR(30),
     Cod_Departamento INT NOT NULL,
     Carga_Horaria INT NOT NULL,
-    Descrição VARCHAR(80),
+    Descricao VARCHAR(80),
     Num_Alunos INT NOT NULL,
     CONSTRAINT fk_Cod_Departamento_Disciplina FOREIGN KEY(Cod_Departamento) REFERENCES Departamento(Cod_Departamento),
     CONSTRAINT fk_Cod_Disciplina FOREIGN KEY(Cod_Disciplina_Depende) REFERENCES Disciplina(Cod_Disciplina)
@@ -317,7 +317,7 @@ CREATE TABLE Disc_Hist (
     Cod_Historico INT NOT NULL,
     Cod_Disciplina INT NOT NULL,
     Nota Decimal,
-    Frequência INT,
+    Frequencia INT,
     PRIMARY KEY (Cod_Historico, Cod_Disciplina),
     CONSTRAINT fk_Cod_Historico FOREIGN KEY (Cod_Historico) REFERENCES Historico(Cod_Historico),
     CONSTRAINT fk_Cod_Disciplina_Hist FOREIGN KEY (Cod_Disciplina) REFERENCES Disciplina(Cod_Disciplina)
@@ -353,3 +353,4 @@ CREATE TABLE Endereco_Aluno (
     CONSTRAINT fk_Cod_RA_End FOREIGN KEY(RA) REFERENCES Aluno(RA),
     CONSTRAINT fk_Cod_Tipo_Logradouro FOREIGN KEY(Cod_Tipo_Logradouro) REFERENCES Tipo_Logradouro(Cod_Tipo_Logradouro)
 );
+
