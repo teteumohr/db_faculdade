@@ -137,16 +137,14 @@
 
 ### Primeira normalização:
 
-| Entidade  | Atributo antigo    | Atributo novo  |
-| --------- | ------------------ | -------------- |
-| Histórico | Período_Realização | Data_Inicio    |
-                                   Data_Fim       |
----------------------------------------------------
-| Alunos    | Contato            | WhatsApp       |
-                                   E-mail         |
----------------------------------------------------
-|           | Telefone           | Telefone_Res   |
-                                   Telefone_Cel   |
+| Entidade  | Atributo antigo    | Atributo novo |
+| --------- | ------------------ |-------------- |
+| Histórico | Período_Realização | Data_Inicio
+                                        Data_Fim |
+| Alunos    | Contato            | WhatsApp
+                                   E-mail        |
+|           | Telefone           | Telefone_Res
+                                   Telefone_Cel  |
 
 ### Segunda normalização:
 
