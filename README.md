@@ -224,8 +224,3 @@ Estas alterações garantem que o código funcione corretamente no MySQL, seguin
 # Arquivo do MySQL Físico:
 
 Esta nos arquivos.
-
-# Progresso do SQL.
-Conforme foi sendo feito houve muitas mudanças então o começo da explicação é para o começo do arquivo, conforme hove as alterações esta explicado cada uma delas aqui.
-Por causa disso no Identificando as Entidades etc, não esta todas identidades finais do arquivo pois houve a normalização dele.
-Então serve como um passo a passo para a criação do arquivo.
